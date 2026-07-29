@@ -53,6 +53,7 @@ def Roll_Dice():
     return random.randint(1,6)
 
 #Prompts User to select Y/N
+Roll_Dice1
 Response = input("Roll the dice? (y/n): ").lower()
 
 #With "Y" response and roll dice, output corresponding ASCII art
@@ -72,10 +73,6 @@ if Response == "y":
     else:
         print(dice[6])
 elif Response == "n":
-    print("Thanks for playing!")
-    pass      
-else:
-    pass
-    print("Invalid answer!")
+=======
 
 
